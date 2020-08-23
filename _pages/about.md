@@ -11,9 +11,9 @@ title: About
 
 <a target="_blank" href="https://shekelash.github.io/">DEMO</a> 是私人博客，根据个人需要进行了细节修改，与实际效果略有不同。  
 实际截图如下：  
-![横屏](/Screenshot01.png)  
-![竖屏](/Screenshot02.png)  
-![手机](/Screenshot03.png)  
+![横屏](/jekyll-theme-archive/Screenshot01.png)  
+![竖屏](/jekyll-theme-archive/Screenshot02.png)  
+![手机](/jekyll-theme-archive/Screenshot03.png)  
 
 ### 特点
 
