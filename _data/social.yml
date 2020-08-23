@@ -5,8 +5,8 @@ social:
   - {icon: 'twitter', type: "brand", link: 'https://twitter.com/1111'}
   - {icon: 'weibo', type: "brand", link: 'https://weibo.com/1111/'}
   - {icon: 'envelope', type: "solid", link: 'mailto:1111@1111.com'}
-  - {icon: 'github', type: "brand", link: 'https://github.com/1111/'}
   - {icon: 'rss', type: "solid", link: "/atom.xml"}
+#  - {icon: 'github', type: "brand", link: 'https://github.com/1111/'}
 #  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
 #  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/1111/'}
 #  - {icon: 'search', type: "old", link: "https://1111.github.io/search"}
