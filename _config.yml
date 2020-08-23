@@ -1,22 +1,14 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
-author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
+site: Fic Drafts 
+url: shekelash.github.io #你的博客网址，必填
+title: Fic Drafts #你的博客标题，必填
+description: #博客介绍，留空则自动引用项目页的介绍
+author: #别填
+  name: ShekelAsh #用户名
+  email: hello@hello.com
+  url: site-url
 permalink: pretty
 
 baseurl: ""
-
-highlighter: none
 
 exclude:
   - .jekyll-cache
@@ -60,3 +52,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+google_analytics:
+  tracking_id: UA-133439443-2

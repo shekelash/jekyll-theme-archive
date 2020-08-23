@@ -1,0 +1,13 @@
+# These are the socials supported by default. If you want to add one which isn't present, find the icon name on https://fontawesome.com/
+# and add it's color in /_sass/social.scss. Brand defines Font Awesome's font type (fas is solid, fab is brand,fas原窗口打开为old).
+
+social:
+  - {icon: 'evernote', type: "brand", link: 'https://www.evernote.com/pub/vin-tin/readingnotes'}
+  - {icon: 'heart', type: "solid", link: "https://archiveofourown.org/users/shekelash"}
+  - {icon: 'mastodon', type: "brand", link: 'https://cmx-im.work/@niimura'}
+  - {icon: 'github', type: "brand", link: 'https://github.com/shekelash/shekelash.github.io/tree/master/_posts'}
+  - {icon: 'rss', type: "solid", link: "/atom.xml"}
+#  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
+#  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
+#  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/alessio-franceschi/'}
+#  - {icon: 'search', type: "old", link: "https://shekelash.github.io/search"}

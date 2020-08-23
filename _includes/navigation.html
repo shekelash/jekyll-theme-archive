@@ -1,10 +1,23 @@
 <header role="banner">
       <!--<h1 class="logo">{{ site.title }}</h1>-->
-      <nav role="navigation">
+<nav role="navigation">
+
 <ul>
    {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
+      <li>
+         <a href="{{ item.url }}"
+            {% if item.url == page.url %} 
+               class="botton-hvr" #不要效果的话改成"active"
+            {% else %}
+               class="hvr-sweep-to-left"
+            {% endif %}>
+            {{ item.title }}
+         </a>
+       </li>
+    {% endfor %}
+   <li>
+     {% include social.html %}
+   </li>
+</ul> 
 </nav>
 </header>

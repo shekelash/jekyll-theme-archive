@@ -1,0 +1,47 @@
+<!-- See https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+<!-- With added pipe to handle lack of sort_natural -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first | downcase }}|{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- site_tags: {{ site_tags }} -->
+{% assign tag_words = site_tags | split:',' | sort %}
+<!-- tag_words: {{ tag_words }} -->
+
+<div id="tags-page">
+  <div class="tags-list" style="padding-left:1.6em">
+    {% for tag_pair in tag_words %}
+    {% assign tag = tag_pair | split:'|' | last %}
+    <a href="#{{ tag | slugify }}" class="tag-link">
+      <span class="tag-name">{{ tag }}</span>
+      <span class="tag-count">[{{ site.tags[tag] | size }}]</span>
+    </a>,&nbsp;&nbsp;
+    {% endfor %}
+  </div>
+
+ <br>
+
+  <div class="posts-by-tag">
+    {% for tag_pair in tag_words %}
+    {% assign tag = tag_pair | split:'|' | last %}
+    <div id="{{ tag | slugify }}" class="posts-for-tag">
+      <h4>{{ tag }}</h4>
+      <ul class="posts-list">
+        {% for post in site.tags[tag] %}
+          <li>
+              <a href="{{ post.url | relative_url }}" style="text-decoration:none;">
+                {{ post.title }}&nbsp;
+                [{% for categories in post.categories -%}
+                   {% capture categories_name %}{{ categories }}{% endcapture %}
+                   {{ categories_name }}, 
+                {%- endfor %}
+
+                {% for tag in post.tags -%}
+                   {% capture tag_name %}{{ tag }}{% endcapture %}
+                   {{ tag_name }}, 
+                {%- endfor %}]
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>

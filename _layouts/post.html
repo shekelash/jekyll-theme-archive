@@ -3,10 +3,31 @@ layout: default
 ---
 
 <section class="post">
+  
   <h2>{{ page.title }}</h2>
+    <div style="padding-left:1.6em">
+      Categories: {% for categories in page.categories %}
+        {% capture categories_name %}{{ categories }}{% endcapture %}
+        <a href="/categories#{{ categories_name  | slugify }}">{{ categories_name }}</a>,&nbsp;
+      {% endfor %}   
+      <br>
+      Tags: {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tags#{{ tag_name  | slugify }}">{{ tag_name }}</a>,&nbsp;
+      {% endfor %}
+      <br>
+      Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        &nbsp;&nbsp;&nbsp;
+      {% if page.updated %}
+         Updated: {{page.updated}}
+      {% endif %}
+      <br>
+      <b>Summary:</b> {{page.summary}}
+      <br>
+      <b>Notes:</b> {{page.description}}
+    </div>
+  <br>
+  
   {{ content }}
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
-    <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
 </section>
-
 
