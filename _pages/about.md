@@ -9,16 +9,21 @@ title: About
 <br>
 <!--以下可自行编辑-->
 
-目前主船可能含第三方关系的盾铁。也会放其他写过的七七八八，包括原创或BG。  
-黑历史过多，2006年之前的文章可以有效帮助大家找到自信。
+<a target="_blank" href="https://shekelash.github.io/">DEMO</a>是私人博客，根据个人需要进行了细节修改，与实际效果略有不同。实际截图如下：
 
-### Warning
+### 特点
 
-- 不分章节，原帖随写随更新。随缘写警示。
-- 会打简单标签，可通过分类页面索引或搜索。
-- 初次搜索有点慢，如果显示无搜索结果就随便再多打一个字进去，随后删除该字。打入删除来回多试几次。
+- 布局参考了AO3，更适合发布小说
+- 极简的版面与CSS，打开（相对）快速。
+- 分类与标签页
+- 搜索插件
 
-### Credits
+### 已知但无法修复的问题
+
+- 内文较多时页面会被撑大几个像素。
+- 初次搜索有点慢，如果显示无搜索结果就随便再多打一个字进去，随后删除该字。多试几次。
+
+### 鸣谢
 
   静态网页生成器：<a target="_blank" href="https://github.com/jekyll/jekyll">jekyll</a>  
   搜索脚本：<a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>，

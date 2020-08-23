@@ -2,12 +2,11 @@
 # and add it's color in /_sass/social.scss. Brand defines Font Awesome's font type (fas is solid, fab is brand,fas原窗口打开为old).
 
 social:
-  - {icon: 'evernote', type: "brand", link: 'https://www.evernote.com/pub/vin-tin/readingnotes'}
-  - {icon: 'heart', type: "solid", link: "https://archiveofourown.org/users/shekelash"}
-  - {icon: 'mastodon', type: "brand", link: 'https://cmx-im.work/@niimura'}
-  - {icon: 'github', type: "brand", link: 'https://github.com/shekelash/shekelash.github.io/tree/master/_posts'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/1111'}
+  - {icon: 'weibo', type: "brand", link: 'https://weibo.com/1111/'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:1111@1111.com'}
+  - {icon: 'github', type: "brand", link: 'https://github.com/1111/'}
   - {icon: 'rss', type: "solid", link: "/atom.xml"}
-#  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
 #  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
-#  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/alessio-franceschi/'}
-#  - {icon: 'search', type: "old", link: "https://shekelash.github.io/search"}
+#  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/1111/'}
+#  - {icon: 'search', type: "old", link: "https://1111.github.io/search"}

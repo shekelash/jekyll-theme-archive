@@ -1,6 +1,8 @@
-# Sidey
+# archive
+适合发布小说的Jekyll主题。A Jekyll theme for fiction.
+<br>
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+
 
 ### Features
 

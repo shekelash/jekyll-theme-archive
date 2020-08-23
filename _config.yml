@@ -1,10 +1,10 @@
-site: Fic Drafts 
+site: jekyll-theme-archive
 url: shekelash.github.io #你的博客网址，必填
-title: Fic Drafts #你的博客标题，必填
+title: jekyll-theme-archive #你的博客标题，必填
 description: #博客介绍，留空则自动引用项目页的介绍
 author: #别填
-  name: ShekelAsh #用户名
-  email: hello@hello.com
+  name: ShekelAsh #用户名，建议填
+  email: 1111@1111.com
   url: site-url
 permalink: pretty
 
