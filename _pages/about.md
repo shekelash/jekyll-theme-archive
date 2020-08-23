@@ -10,10 +10,10 @@ title: About
 <!--以下可自行编辑-->
 
 <a target="_blank" href="https://shekelash.github.io/">DEMO</a> 是私人博客，根据个人需要进行了细节修改，与实际效果略有不同。  
-实际截图如下：
-![横屏]</Screenshot01.png>
-![竖屏]</Screenshot02.png>
-![手机]</Screenshot03.png>
+实际截图如下：  
+![横屏](/Screenshot01.png)  
+![竖屏](/Screenshot02.png)  
+![手机](/Screenshot03.png)  
 
 ### 特点
 
