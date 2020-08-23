@@ -13,7 +13,7 @@ title: About
 实际截图如下：  
 <img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png" width = "450" alt="横屏" align=center />
 <br>
-<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot02.png" width = "220" alt="竖屏" align=center />
+<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot02.png" width = "250" alt="竖屏" align=center />
 <img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot03.png" width = "200" alt="手机" align=center /> 
 
 ### 特点
