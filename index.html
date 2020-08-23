@@ -21,7 +21,7 @@ tittle: Fiction
            
            {% for tag in post.tags %}
            {% capture tag_name %}{{ tag }}{% endcapture %}
-           {{ tag_name }},&nbsp;
+          <a href="/tags#{{ tag | slugify }}">{{ tag_name }}</a>,&nbsp;
            {% endfor %}
            ]
          </span>
