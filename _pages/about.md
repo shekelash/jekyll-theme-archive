@@ -8,7 +8,6 @@ title: About
 
 <br>
 <!--以下可自行编辑-->
-
 <a target="_blank" href="https://shekelash.github.io/">DEMO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://github.com/shekelash/jekyll-theme-archive/">Fork/Download</a> 
 <br>
 DOME展示为私人博客，根据个人需要进行了细节修改，与实际效果略有不同。  
