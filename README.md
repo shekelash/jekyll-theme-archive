@@ -9,7 +9,7 @@
 
 <a target="_blank" href="https://shekelash.github.io/">DEMO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://github.com/shekelash/jekyll-theme-archive/">Fork/Download</a> 
 <br>
-DOME展示为私人博客，根据个人需要进行了细节修改，与本主题实际效果略有不同（应该看不出的）。  
+DOME展示为私人博客，根据个人需要进行了细节修改，与本主题实际效果略有不同（应该察觉不到）。  
 
 ### 特点
 
