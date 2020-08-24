@@ -1,27 +1,39 @@
+![截图](https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png)<br>
+![截图](https://shekelash.github.io/jekyll-theme-archive/Screenshot02.png)<br>
+
 # archive
 适合发布小说的Jekyll主题。A Jekyll theme for fiction.
 <br>
+<a target="_blank" href="https://shekelash.github.io/">DEMO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://github.com/shekelash/jekyll-theme-archive/">Fork/Download</a> 
+<br>
+DOME展示为私人博客，根据个人需要进行了细节修改，与实际效果略有不同。  
 
+### 特点
 
+- 布局参考了AO3，更适合发布小说
+- 极简的版面与CSS，打开页面（相对）飞快。
+- 分类与标签页
+- 搜索插件
 
-### Features
+### 已知但难以修复的问题
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+- 横屏状态下，内文较多时页面会被撑大几个像素。
+- 初次搜索有点慢，如果显示无搜索结果就随便再多打一个字进去，随后删除该字。多试几次。
 
-### Screenshot
+### 鸣谢
 
-![Screenshot](screenshot.png)
+  静态网页生成器：<a target="_blank" href="https://github.com/jekyll/jekyll">jekyll</a>  
+  搜索脚本：<a target="_blank" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a>，
+  图标：<a target="_blank" href="https://fontawesome.com/">font Awesome</a>，
+  按钮特效：<a target="_blank" href="https://ianlunn.github.io/Hover/">Hover.css</a>  
+  主题缝合自：<a target="_blank" href="https://github.com/ronv/sidey">sidey</a>，
+  <a target="_blank" href="https://github.com/fongandrew/hydeout">hydeout</a>，
+  <a target="_blank" href="https://github.com/PandaSekh/Jekyll-YAMT">Jekyll-YAMT</a>，
+  <a target="_blank" href="https://github.com/xz-777/H-Plus">H-Plus</a>
+
+# 使用方法
+
+### 初步安装
+
+### 自定义修改
+1. 
