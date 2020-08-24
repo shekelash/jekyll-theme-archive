@@ -1,5 +1,5 @@
-<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png" width="50%">
-<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png" width="50%">
+<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png" width="40%">
+<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot02.png" width="40%">
 
 # archive
 适合发布小说的Jekyll主题。A Jekyll theme for fiction.
