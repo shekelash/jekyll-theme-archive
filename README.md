@@ -1,6 +1,6 @@
 <div>
-<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot01.png" width="45%">
-<img src="https://shekelash.github.io/jekyll-theme-archive/Screenshot02.png" width="45%">
+<img src="https://shekelash.github.io/jekyll-theme-archive/img/Screenshot01.png" width="45%">
+<img src="https://shekelash.github.io/jekyll-theme-archive/img/Screenshot02.png" width="45%">
 </div>
 
 # archive
