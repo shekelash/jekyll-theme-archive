@@ -8,7 +8,7 @@ author: #别填
   url: site-url
 permalink: pretty
 
-baseurl: "" #用于非根目录博客，例"/ABC"
+baseurl: "/jekyll-theme-archive" #用于非根目录博客，例"/ABC"
 
 exclude:
   - .jekyll-cache
